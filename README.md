@@ -1,6 +1,12 @@
 # map-outline
 This utility generates a detailed outline of the world map without national borders. Data source was obtained from [NOAA.gov](https://www.ngdc.noaa.gov/mgg/shorelines/).
 
+## Steps To run:<br>
+* Download the source file from [here](https://www.ngdc.noaa.gov/mgg/shorelines/).
+* Copy the `GSHHS_f_L1.shp` and `GSHHS_f_L1.shx` files from the files downloaded to this root directory.
+* Run python `generate-map.py` to get `world.png` as the output.
+
+## Examples:<br>
 Print high res world outline:<br>
 `python generate-map.py -s 128`
 
